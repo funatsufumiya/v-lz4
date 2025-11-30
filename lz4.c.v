@@ -2,9 +2,10 @@
 module lz4
 
 #flag -I @VMODROOT/c
+#flag @VMODROOT/c/lz4.o
 
 #include "lz4.h"
-#include "lz4.c"
+// #include "lz4.c"
 
 //
 // * LZ4 - Fast LZ compression algorithm
